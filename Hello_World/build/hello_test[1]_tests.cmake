@@ -1,0 +1,7 @@
+add_test( HelloTest.BasicAssertions /home/jimenez/my_project/build/hello_test [==[--gtest_filter=HelloTest.BasicAssertions]==] --gtest_also_run_disabled_tests)
+set_tests_properties( HelloTest.BasicAssertions PROPERTIES WORKING_DIRECTORY /home/jimenez/my_project/build)
+add_test( HelloTest.UseOnlyExpect /home/jimenez/my_project/build/hello_test [==[--gtest_filter=HelloTest.UseOnlyExpect]==] --gtest_also_run_disabled_tests)
+set_tests_properties( HelloTest.UseOnlyExpect PROPERTIES WORKING_DIRECTORY /home/jimenez/my_project/build)
+add_test( HelloTest.UseOneAssertion /home/jimenez/my_project/build/hello_test [==[--gtest_filter=HelloTest.UseOneAssertion]==] --gtest_also_run_disabled_tests)
+set_tests_properties( HelloTest.UseOneAssertion PROPERTIES WORKING_DIRECTORY /home/jimenez/my_project/build)
+set( hello_test_TESTS HelloTest.BasicAssertions HelloTest.UseOnlyExpect HelloTest.UseOneAssertion)

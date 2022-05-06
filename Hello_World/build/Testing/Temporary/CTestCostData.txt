@@ -1,0 +1,7 @@
+HelloTest.BasicAssertions 35 0.000111589
+HelloTest.UseOnlyExpect 0 0
+HelloTest.UseOneAssertion 0 0
+HelloTest.TestStrings 15 0.000218011
+---
+HelloTest.UseOnlyExpect
+HelloTest.UseOneAssertion
