@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/arithmetics.dir/unittest_arithmetics.cpp.o  -o arithmetics  lib/libgtest_main.a lib/libgtest.a -lpthread 

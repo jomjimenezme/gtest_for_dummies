@@ -1,3 +1,0 @@
-testMath.myCubeTest 0 0
----
-testMath.myCubeTest
