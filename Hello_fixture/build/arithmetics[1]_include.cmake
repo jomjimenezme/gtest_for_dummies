@@ -1,5 +1,0 @@
-if(EXISTS "/home/jimenez/Google_test/Hello_fixture/build/arithmetics[1]_tests.cmake")
-  include("/home/jimenez/Google_test/Hello_fixture/build/arithmetics[1]_tests.cmake")
-else()
-  add_test(arithmetics_NOT_BUILT arithmetics_NOT_BUILT)
-endif()
