@@ -25,8 +25,6 @@ private:
   int year;
   static inline const int daysPerMonth[]{ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
   static const int stdYear{1970};
-  static bool isLeapYear(int year)
-  { return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0; }
   void checkDate();
 public:
   explicit Date(int d = 1, int m = 1, int y = stdYear) : day{d}, month{m}, year{y}
@@ -46,5 +44,8 @@ public:
   }
   Date& incDay();
   void print() const { cout << day << '.' << month << '.' << year << endl; }
+
+  static bool isLeapYear(int year) //probably better implemented in other class (?)
+  { return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0; };
 };
 
