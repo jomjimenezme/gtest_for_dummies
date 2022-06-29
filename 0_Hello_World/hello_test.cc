@@ -23,10 +23,10 @@ TEST(HelloTest, BasicAssertions) {
   EXPECT_NE(7 * 6, 4234); 
   
 }
-/*
 
 
 /*
+
 //------------------------- 2 ----------------------------
 //  Here We use only "EXPECT" assertions
 //  and we expect two of them to fail.
@@ -38,7 +38,7 @@ TEST(HelloTest, UseOnlyExpect){
   EXPECT_EQ(7 * 6, 23423) ;  
 
   EXPECT_EQ(7 * 6, 42);
-  EXPECT_EQ(7 * 6, 23423) << "Second time it fails";
+  EXPECT_EQ(7 * 6, 23423) << "Second time it fails"; // Costume message
 
 }
   
@@ -73,8 +73,10 @@ TEST(HelloTest, TestStrings){
 }
 
 
+//Rounding errors make unlikely that two floating-point values match exactly, so EXPECT_EQ fails.
 //  Testing Double Values
 TEST(HelloTest, TestDoubles){
+
  // Verifies that the two double values val1 and val2 are approximately equal,
  // to within 4 ULPs from each other.
   EXPECT_DOUBLE_EQ(val1,val2)

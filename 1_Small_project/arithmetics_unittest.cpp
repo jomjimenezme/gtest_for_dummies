@@ -2,7 +2,7 @@
 #include "arithmetics.h"
 
 //Here we just test a function
-TEST(ArithmeticsTest, SquareTest)
+TEST(TakeSquareTest, SquareTest)
 {
-    EXPECT_EQ(100, takeSquare(10));	
+    EXPECT_EQ(100, TakeSquare(10));	
 }

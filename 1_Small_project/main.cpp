@@ -4,6 +4,6 @@
 
 int main()
 {
-	double c=takeSquare(7.0);
+	double c=TakeSquare(7.0);
 	return 0;
 }

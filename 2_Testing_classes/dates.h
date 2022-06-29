@@ -1,4 +1,4 @@
-// class date, copy constructur added
+// class date
 // author:  Holger Arndt
 // version: 09.10.2019
 // Modified by: Jose M Jimenez M

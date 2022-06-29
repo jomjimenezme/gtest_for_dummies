@@ -2,7 +2,7 @@
 #include "arithmetics.h"
 
 
-double takeSquare(double d)
+double TakeSquare(double d)
 {
 	return pow(d,2);
 }

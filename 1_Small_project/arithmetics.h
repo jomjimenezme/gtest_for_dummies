@@ -2,4 +2,4 @@
 
 #include <cmath>
 //returns the square of a number:
-double takeSquare(double d);
+double TakeSquare(double d);
